@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>TAMPILAN CARD</title>
+        <style>
+            body {
+                background-color: aqua;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .product-card {
+                background-color: white;
+                display: table;
+                margin: 0 auto;
+                width: 100%;
+            }
+            .product-image {
+                text-align: center;
+                background-color: violet;
+            }
+            .product-image img {
+                max-width: 100%;
+                width: 40%;
+            }
+            .product-card,
+            .product-image {
+                border-radius: 15px;
+            }
+
+            .product-name {
+                float: left;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            .product-price {
+                float: right;
+                font-weight: bold;
+                font-size: 25px;
+                color: red;
+            }
+
+            .product-description {
+                font-size: 20px;
+            }
+
+            .clear-both {
+                clear: both;
+            }
+
+            .product-button {
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+                padding: 10px 20px;
+            }
+            .product-buy_now {
+                float: left;
+                background-color: red;
+            }
+            .product-add_to_cart {
+                float: right;
+                background-color: blue;
+            }
+
+            .product-margin-left {
+                margin-left: 25px;
+            }
+            .product-margin-right {
+                margin-right: 25px;
+            }
+            .product-margin-bottom {
+                margin-bottom: 20px;
+            }
+            .product-margin-top {
+                margin-top: 20px;
+            }
+            [href *= 'html'] {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="product-card">
+            <div class="product-image product-margin-bottom">
+                <img src="fitnessbg.png" alt="shoes">
+            </div>
+            <div class="product-name product-margin-left">
+                Product Name
+            </div>
+            <div class="product-price product-margin-right">
+                $99.99
+            </div>
+            <div class="clear-both product-margin-bottom"></div>
+            <div class="product-description product-margin-left product-margin-bottom">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero facilis eum aperiam sed nulla, ratione earum.
+            </div>
+            <a href="add_to_htmlcart-" class="product-button product-buy_now product-margin-left">
+                Buy Now!
+            </a>
+            <a href="" class="product-button product-add_to_cart product-margin-right">
+                Add to Cart
+            </a>
+            <div class="clear-both product-margin-bottom"></div>
+        </div>
+    </body>
+</html>
